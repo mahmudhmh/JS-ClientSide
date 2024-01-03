@@ -1,5 +1,27 @@
 //EX1-Object functions
 
+/*
+1- Object.keys(obj): Returns an array of a given object's own enumerable property names.
+
+2- Object.values(obj): Returns an array of a given object's own enumerable property values.
+
+3- Object.entries(obj): Returns an array of a given object's own enumerable property key-value pairs.
+
+4- Object.assign(target, source): Copies the values of all enumerable properties from one or more source objects to a target object.
+
+5- Object.freeze(obj): Freezes an object, preventing new properties from being added and existing properties from being removed or changed.
+
+6- Object.seal(obj): Seals an object, preventing new properties from being added and marking all existing properties as non-configurable.
+
+7- Object.create(proto, [propertiesObject]): Creates a new object with the specified prototype object and properties.
+
+8-Object.hasOwnProperty(prop): Returns a boolean indicating whether the object has the specified property as its own property.
+
+9- Object.getPrototypeOf(obj): Returns the prototype (internal [[Prototype]] property) of the specified object.
+
+10- Object.is(obj1, obj2): Determines whether two values are the same value.
+*/
+
 //1
 const car1 = { make: "Toyota", model: "Camry", year: 2022 };
 const keys = Object.keys(car1);
@@ -66,6 +88,28 @@ console.log(Object.is(x, y)); // Output: true
 console.log(Object.is(x, z)); // Output: false
 
 //EX2-Array functions
+
+/*
+1- array.push(element): Adds one or more elements to the end of an array and returns the new length.
+
+2- array.pop(): Removes the last element from an array and returns that element.
+
+3- array.shift(): Removes the first element from an array and returns that element.
+
+4- array.unshift(element): Adds one or more elements to the beginning of an array and returns the new length.
+
+5- array.slice(start, end): Returns a shallow copy of a portion of an array into a new array object.
+
+6- array.splice(start, deleteCount, item1, item2, ...): Changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+
+7- array.concat(array2, array3, ...): Returns a new array combining the elements of the original array and other arrays.
+
+8- array.indexOf(element): Returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
+9- array.join(separator): Joins all elements of an array into a string, with an optional separator.
+
+10- array.reverse(): Reverses the elements of an array in place.
+ */
 
 //1
 const fruits1 = ["apple", "orange", "banana"];
