@@ -71,13 +71,13 @@ console.log(Object.is(x, z)); // Output: false
 const fruits1 = ["apple", "orange", "banana"];
 const newLength1 = fruits1.push("grape");
 console.log(fruits1); // Output: ['apple', 'orange', 'banana', 'grape']
-console.log(newLength); // Output: 4
+console.log(newLength1); // Output: 4
 
 //2
 const fruits2 = ["apple", "orange", "banana"];
 const removedFruit2 = fruits2.pop();
 console.log(fruits2); // Output: ['apple', 'orange']
-console.log(removedFruit); // Output: 'banana'
+console.log(removedFruit2); // Output: 'banana'
 
 //3
 const fruits3 = ["apple", "orange", "banana"];
